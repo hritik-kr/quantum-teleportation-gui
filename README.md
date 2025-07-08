@@ -32,6 +32,7 @@ A Python GUI for simulating quantum teleportation circuits with real-time visual
 pip install -r requirements.txt  
 python main.py
 
+
 ## 🎮 Usage
 Select circuit type from dropdown
 
@@ -44,3 +45,10 @@ View results:
 Left panel: Quantum circuit diagram
 
 Right panel: Measurement histogram
+
+
+## 🌌 Quantum Basics  
+This implements the 3-step teleportation protocol:  
+1. **Entanglement** - Creates Bell pair between qubits  
+2. **Measurement** - Bell state measurement  
+3. **Correction** - Applies X/Z gates based on results  
